@@ -1,9 +1,8 @@
 defmodule PE16Stream do
-
   @moduledoc """
   Solves Project Euler Problem 16 using lazy Stream evaluation.
   """
-  
+
   defp pow2(exp) do
     Integer.pow(2, exp)
   end

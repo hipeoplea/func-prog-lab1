@@ -35,7 +35,6 @@ defmodule PE14Test do
     end
   end
 
-
   describe "n-only implementations" do
     for {limit, expected_n} <- @solve_cases,
         mod <- @n_only_impls do

@@ -1,5 +1,4 @@
 defmodule PE16Rec do
-
   @moduledoc """
   Solves Project Euler Problem 16 using naive recursion.
   """
@@ -10,7 +9,7 @@ defmodule PE16Rec do
 
   defp sum_digits(0), do: 0
 
-  defp sum_digits(n)  do
+  defp sum_digits(n) do
     rem(n, 10) + sum_digits(div(n, 10))
   end
 

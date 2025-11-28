@@ -1,7 +1,6 @@
 defmodule PE16Test do
   use ExUnit.Case, async: true
 
-
   @exp_cases [
     {0, 1},
     {1, 2},
@@ -14,15 +13,12 @@ defmodule PE16Test do
     {1000, 1366}
   ]
 
-
-
   @solve_impls [
     PE16Tail,
     PE16Rec,
     PE16Modular,
     PE16Stream
   ]
-
 
   test "all attempts to solve /1 accurately calculate the sum of 2^exp" do
     Enum.each(@exp_cases, fn {exp, expected_sum} ->
@@ -34,5 +30,4 @@ defmodule PE16Test do
       end)
     end)
   end
-
 end

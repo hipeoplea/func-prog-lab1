@@ -1,5 +1,4 @@
 defmodule PE14Stream do
-
   @moduledoc """
   Solves Project Euler Problem 14 using lazy Stream evaluation.
   """

@@ -1,5 +1,4 @@
 defmodule PE14Rec do
-
   @moduledoc """
   Solves Project Euler Problem 14 using naive recursion.
   """

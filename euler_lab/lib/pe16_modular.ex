@@ -1,5 +1,4 @@
 defmodule PE16Modular do
-
   @moduledoc """
   Solves Project Euler Problem 16 using modular, composable functions.
   """

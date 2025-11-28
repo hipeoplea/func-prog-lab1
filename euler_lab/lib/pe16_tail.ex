@@ -1,5 +1,4 @@
 defmodule PE16Tail do
-
   @moduledoc """
   Solves Project Euler Problem 16 using tail-recursive approach.
   """
