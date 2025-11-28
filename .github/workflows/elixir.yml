@@ -13,8 +13,8 @@ jobs:
 
     defaults:
       run:
-        working-directory: euler_la
-        
+        working-directory: euler_lab
+
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
